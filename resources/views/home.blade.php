@@ -264,7 +264,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                             <h4>Orange Juice</h4>
                                                             <p>Offering the best deal for our beloved cistomers.</p>
                                                             <div class="price">
-                                                                <h6>100TK</h6>
+                                                                <h6>15TK</h6>
                                                             </div>
                                                         </div>
                                                     </div>
