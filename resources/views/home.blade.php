@@ -261,7 +261,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Fruit Juice</h4>
+                                                            <h4>Orange Juice</h4>
                                                             <p>Offering the best deal for our beloved cistomers.</p>
                                                             <div class="price">
                                                                 <h6>16TK</h6>
