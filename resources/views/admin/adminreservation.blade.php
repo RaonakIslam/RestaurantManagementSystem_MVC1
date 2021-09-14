@@ -13,7 +13,7 @@
   <div class="container-scroller">
   @include("admin.navbar")
 
-  <div style="position: relative; top: 70px; right: -150px;">
+  <div style="position: relative; top: 70px; right: -120px;">
       <table bgcolor="grey" border="1px">
           <tr>
               <th style="padding: 30px">Name</th>
