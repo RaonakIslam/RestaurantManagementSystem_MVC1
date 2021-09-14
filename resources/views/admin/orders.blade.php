@@ -31,7 +31,7 @@
           <td style="padding: 30px;">Food Name</td>
           <td style="padding: 30px;">Price</td>
           <td style="padding: 30px;">Quantity</td>
-          <td style="padding: 30px;">Total Price</td>
+          
       </tr>
 
       @foreach($data as $data)
@@ -42,7 +42,7 @@
           <td>{{$data->foodname}}</td>
           <td>{{$data->price}}TK</td>
           <td>{{$data->quantity}}</td>
-          <td>{{$data->price * $data->quantity}}TK</td>
+          
       </tr>
       @endforeach
 

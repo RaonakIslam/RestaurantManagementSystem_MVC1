@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\http\Controllers\HomeController;
+use App\Http\Controllers\HomeController;
 
-use App\http\Controllers\AdminController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------

@@ -60,7 +60,13 @@ https://templatemo.com/tm-558-klassy-cafe
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section">
+                            @auth
+                                <a href="{{url('/redirects')}}">
+                                Home
+                            @endauth
+                            </a></li>
+                            
                             <li class="scroll-to-section"><a href="#about">About</a></li>
                            	
                         <!-- 
@@ -90,11 +96,11 @@ https://templatemo.com/tm-558-klassy-cafe
                             <li class="scroll-to-section" style="background-color: yellow">
                             @auth
                                 <a href="{{url('/showcart', Auth::user()->id)}}">
-                                Cart[{{$count}}]
+                                Cart {{$count}} 
                             @endauth
 
                             @guest
-                                Cart[0]
+                                Cart 0
                             @endguest
                             </a></li>
                         
@@ -149,8 +155,9 @@ https://templatemo.com/tm-558-klassy-cafe
         </tr>
         @endforeach
 
+        
         @foreach($data2 as $data2)
-        <tr style="position: relative; top: -80px; right: -390px">
+        <tr style="position: relative; top: -50px; right: -390px">
             <td><a href="{{url('/remove', $data2->id)}}" class="btn-warning">Remove</a></td>
         </tr>
         @endforeach
@@ -175,9 +182,9 @@ https://templatemo.com/tm-558-klassy-cafe
             <input type="text" name="address" placeholder="Address">
         </div>
         <div style="padding: 10px;">
-            <input class="btn btn-success" type="button" type="submit" value="Order Confirm" >
-            <button id="close" class="btn btn-danger">Close</button>
-        </div>
+            <input class="btn btn-success" type="submit" value="Order Confirm" >
+            <button id="close" type="button" class="btn btn-danger">Close</button>
+        </div> 
     </div>
 
     </form>
